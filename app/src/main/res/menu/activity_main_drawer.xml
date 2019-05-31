@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Like">
+        <menu>
+            <item
+                android:id="@+id/nav_todo"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Todo" />
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="Favorite" />
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/favorite_text_view"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:text="To do 1 "
+            android:layout_toStartOf="@+id/favorite_btn_favorite"
+            style="@style/TextAppearance.AppCompat.Body2"
+            />
+        <ImageView
+            android:id="@+id/favorite_btn_favorite"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/state_image_button"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">todoAppsExample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Phạm Quang Hoàng</string>
+    <string name="nav_header_subtitle">pqhoang.17it@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Firebase -->
+    <string name="db_name_user">users</string>
+    <string name="field_username">username</string>
+    <string name="field_password">password</string>
+    <string name="field_email">email</string>
+    <string name="db_name_like">Like</string>
+    <string name="db_name_todo">todo_list</string>
+    <string name="field_check_box">isChecked</string>
+    <string name="field_work">work</string>
+    <string name="field_favourite">isFavorite</string>
+
+
+</resources>

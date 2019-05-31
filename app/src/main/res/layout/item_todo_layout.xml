@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+   <RelativeLayout
+       android:layout_centerHorizontal="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+
+       <CheckBox
+           android:id="@+id/todo_checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           />
+       <TextView
+           android:id="@+id/todo_text_view"
+           android:layout_centerInParent="true"
+           android:singleLine="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="To do 1 "
+           android:padding="5dp"
+           android:textSize="18sp"
+           style="@style/TextAppearance.AppCompat.Body2"
+           android:layout_toEndOf="@+id/todo_checkbox"
+           android:layout_toStartOf="@+id/to_do_btn_favorite"
+           />
+       <ImageView
+           android:id="@+id/to_do_btn_favorite"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/state_image_button"
+           android:layout_alignParentEnd="true"
+           />
+   </RelativeLayout>
+</RelativeLayout>
